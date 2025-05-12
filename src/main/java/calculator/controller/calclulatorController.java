@@ -1,13 +1,13 @@
 package calculator.controller;
 
-import calculator.model.carclulatorModel;
-import calculator.view.carclulatorView;
+import calculator.model.calclulatorModel;
+import calculator.view.calclulatorView;
 
-public class carclulatorController {
-    private final carclulatorModel model;
-    private final carclulatorView view;
+public class calclulatorController {
+    private final calclulatorModel model;
+    private final calclulatorView view;
 
-    public carclulatorController(carclulatorModel model, carclulatorView view){
+    public calclulatorController(calclulatorModel model, calclulatorView view){
         this.model = model;
         this.view = view;
     }

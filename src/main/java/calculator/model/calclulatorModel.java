@@ -1,12 +1,10 @@
 package calculator.model;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class carclulatorModel {
+public class calclulatorModel {
     private static final Pattern Custom_Separator = Pattern.compile("^//(.)\\\\n(.*)");
 
     public int calculator(String input){

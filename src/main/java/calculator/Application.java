@@ -1,14 +1,14 @@
 package calculator;
 
-import calculator.controller.carclulatorController;
-import calculator.model.carclulatorModel;
-import calculator.view.carclulatorView;
+import calculator.controller.calclulatorController;
+import calculator.model.calclulatorModel;
+import calculator.view.calclulatorView;
 
 public class Application {
     public static void main(String[] args) {
-        carclulatorModel model = new carclulatorModel();
-        carclulatorView view = new carclulatorView();
-        carclulatorController controller = new carclulatorController(model, view);
+        calclulatorModel model = new calclulatorModel();
+        calclulatorView view = new calclulatorView();
+        calclulatorController controller = new calclulatorController(model, view);
         controller.run();
     }
 }
